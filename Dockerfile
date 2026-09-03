@@ -9,9 +9,7 @@ RUN git fetch --all --tags && \
 
 WORKDIR /comfyui/custom_nodes
 
-RUN git clone https://github.com/MoonGoblinDev/Civicomfy.git && \
-    cd Civicomfy && \
-    git checkout 3e83e70
+RUN git clone https://github.com/MoonGoblinDev/Civicomfy.git
 
 RUN git clone https://github.com/kijai/ComfyUI-KJNodes.git && \
     cd ComfyUI-KJNodes && \
