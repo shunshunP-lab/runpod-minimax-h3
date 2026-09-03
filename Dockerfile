@@ -39,7 +39,4 @@ RUN pip install --no-cache-dir \
     -e /comfyui/custom_nodes/ComfyUI-MiniMax-H3-Turbo
 
 RUN pip install --no-cache-dir \
-    -e /comfyui/custom_nodes/Civicomfy
-
-RUN pip install --no-cache-dir \
     -e /comfyui/custom_nodes/ComfyUI-RunpodDirect
