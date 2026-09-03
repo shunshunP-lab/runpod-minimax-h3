@@ -19,9 +19,7 @@ RUN git clone https://github.com/larryvrh/ComfyUI-MiniMax-H3-Turbo.git && \
     cd ComfyUI-MiniMax-H3-Turbo && \
     git checkout 4274783
 
-RUN git clone https://github.com/MadiatorLabs/ComfyUI-RunpodDirect.git && \
-    cd ComfyUI-RunpodDirect && \
-    git checkout a59de47
+RUN git clone https://github.com/MadiatorLabs/ComfyUI-RunpodDirect.git
 
 RUN git clone https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet.git
 
