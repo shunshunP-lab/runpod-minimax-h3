@@ -34,8 +34,6 @@ RUN pip install --no-cache-dir \
 RUN pip install --no-cache-dir \
     -r /comfyui/custom_nodes/rgthree-comfy/requirements.txt
 
-RUN pip install --no-cache-dir \
-    -e /comfyui/custom_nodes/ComfyUI_Custom_Nodes_AlekPet
 
 RUN pip install --no-cache-dir \
     -e /comfyui/custom_nodes/ComfyUI-MiniMax-H3-Turbo
