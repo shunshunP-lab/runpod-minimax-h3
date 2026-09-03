@@ -13,9 +13,7 @@ RUN git clone https://github.com/MoonGoblinDev/Civicomfy.git
 
 RUN git clone https://github.com/kijai/ComfyUI-KJNodes.git
 
-RUN git clone https://github.com/ltdrdata/ComfyUI-Manager.git && \
-    cd ComfyUI-Manager && \
-    git checkout 8d5a95d
+RUN git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 
 RUN git clone https://github.com/larryvrh/ComfyUI-MiniMax-H3-Turbo.git && \
     cd ComfyUI-MiniMax-H3-Turbo && \
