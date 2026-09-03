@@ -11,9 +11,7 @@ WORKDIR /comfyui/custom_nodes
 
 RUN git clone https://github.com/MoonGoblinDev/Civicomfy.git
 
-RUN git clone https://github.com/kijai/ComfyUI-KJNodes.git && \
-    cd ComfyUI-KJNodes && \
-    git checkout e0c3fcb
+RUN git clone https://github.com/kijai/ComfyUI-KJNodes.git
 
 RUN git clone https://github.com/ltdrdata/ComfyUI-Manager.git && \
     cd ComfyUI-Manager && \
